@@ -15,10 +15,10 @@ class Uniclipboard < Formula
   end
 
   def install
-    bin.install "uniclipboard-cli" => "uniclipboard"
+    bin.install "uniclip"
   end
 
   test do
-    system bin/"uniclipboard", "--version"
+    system bin/"uniclip", "--version"
   end
 end
