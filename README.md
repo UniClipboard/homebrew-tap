@@ -5,14 +5,14 @@ Homebrew tap for [UniClipboard](https://github.com/UniClipboard/UniClipboard) - 
 ## Install CLI
 
 ```bash
-brew tap UniClipboard/uniclipboard
+brew tap UniClipboard/tap
 brew install uniclipboard
 ```
 
 ## Install App
 
 ```bash
-brew tap UniClipboard/uniclipboard
+brew tap UniClipboard/tap
 brew install --cask uniclipboard
 ```
 
@@ -29,5 +29,5 @@ brew upgrade --cask uniclipboard
 ```bash
 brew uninstall uniclipboard
 brew uninstall --cask uniclipboard
-brew untap UniClipboard/uniclipboard
+brew untap UniClipboard/tap
 ```
