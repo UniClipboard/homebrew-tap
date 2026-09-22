@@ -1,17 +1,17 @@
 class Uniclipboard < Formula
   desc "Privacy-first cross-device clipboard sync CLI"
   homepage "https://github.com/UniClipboard/UniClipboard"
-  version "0.19.3"
+  version "0.19.4"
   license "AGPL-3.0-only"
 
   on_arm do
     url "https://github.com/UniClipboard/UniClipboard/releases/download/v#{version}/uniclipboard-cli-#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "287d628eb5a4dccbb7e8ee1cf473ed32ec4a61bc1f1a1915b82991f61183ff43"
+    sha256 "b1f7518e9e18bc5206252dae6698697d773b6e9ce1b4aac3e043803552b8dde2"
   end
 
   on_intel do
     url "https://github.com/UniClipboard/UniClipboard/releases/download/v#{version}/uniclipboard-cli-#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "78aeaf342247744a33de5cf3ac474e75a850bc3b9d2ddc90eda1c3f2501c6558"
+    sha256 "5af736ac63f88acf71671e905823c634b7bf6dc81b8ea94cb4bcfd1d3c64f872"
   end
 
   def install
