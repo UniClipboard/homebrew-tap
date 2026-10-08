@@ -10,7 +10,7 @@ cask "uniclipboard" do
   desc "Privacy-first cross-device clipboard sync"
   homepage "https://github.com/UniClipboard/UniClipboard"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "UniClipboard.app"
 
